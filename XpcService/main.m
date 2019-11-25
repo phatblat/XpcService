@@ -22,5 +22,8 @@ int main(int argc, const char *argv[])
     
     // Resuming the serviceListener starts this service. This method does not return.
     [listener resume];
+
+    // The resume method never returns.
+    exit(EXIT_FAILURE);
     return 0;
 }
