@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F8560FBA238B4E5B00EF3348 /* XpcService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8560FB9238B4E5B00EF3348 /* XpcService.m */; };
 		F8560FBC238B4E5B00EF3348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8560FBB238B4E5B00EF3348 /* main.m */; };
+		F8DB8051238B7E0D0076294F /* ServiceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB8050238B7E0D0076294F /* ServiceDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,8 @@
 		F8560FB9238B4E5B00EF3348 /* XpcService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XpcService.m; sourceTree = "<group>"; };
 		F8560FBB238B4E5B00EF3348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8560FBD238B4E5B00EF3348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DB804F238B7E0D0076294F /* ServiceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceDelegate.h; sourceTree = "<group>"; };
+		F8DB8050238B7E0D0076294F /* ServiceDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,11 +53,13 @@
 		F8560FB6238B4E5B00EF3348 /* XpcService */ = {
 			isa = PBXGroup;
 			children = (
-				F8560FB7238B4E5B00EF3348 /* XpcServiceProtocol.h */,
+				F8560FBD238B4E5B00EF3348 /* Info.plist */,
+				F8560FBB238B4E5B00EF3348 /* main.m */,
+				F8DB804F238B7E0D0076294F /* ServiceDelegate.h */,
+				F8DB8050238B7E0D0076294F /* ServiceDelegate.m */,
 				F8560FB8238B4E5B00EF3348 /* XpcService.h */,
 				F8560FB9238B4E5B00EF3348 /* XpcService.m */,
-				F8560FBB238B4E5B00EF3348 /* main.m */,
-				F8560FBD238B4E5B00EF3348 /* Info.plist */,
+				F8560FB7238B4E5B00EF3348 /* XpcServiceProtocol.h */,
 			);
 			path = XpcService;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8560FBC238B4E5B00EF3348 /* main.m in Sources */,
+				F8DB8051238B7E0D0076294F /* ServiceDelegate.m in Sources */,
 				F8560FBA238B4E5B00EF3348 /* XpcService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
