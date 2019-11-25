@@ -85,7 +85,7 @@
 		F8560FAC238B4E5B00EF3348 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Ben Chatelain";
 				TargetAttributes = {
 					F8560FB3238B4E5B00EF3348 = {
@@ -99,6 +99,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F8560FAB238B4E5B00EF3348;
 			productRefGroup = F8560FB5238B4E5B00EF3348 /* Products */;
@@ -247,6 +248,7 @@
 		F8560FC1238B4E5B00EF3348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;
@@ -260,6 +262,7 @@
 		F8560FC2238B4E5B00EF3348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;
